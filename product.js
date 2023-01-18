@@ -30,11 +30,14 @@ function productAdd(arr) {
 
     if(sum > 0) {
         return 'The product is positive'
-    }else if(sum < 0) {
-        return 'The product is negative'
-    }else{
-        return 'The product is 0';
     }
+
+    if(sum < 0) {
+        return 'The product is negative'
+    }
+
+    return 'The product is 0';
+
 }
 
 console.log(productAdd(arr));
