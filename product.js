@@ -10,11 +10,13 @@ function productMultiply(arr) {
             negativeCount++;
         }
     }
+
     if (negativeCount % 2 === 0) {
         return 'The product is positive'
-    }else {
-        return 'The product is negative'
     }
+
+    return 'The product is negative'
+
 }
 
 console.log(productMultiply(arr));
@@ -26,18 +28,12 @@ function productAdd(arr) {
     for(let i = 0; i < arr.length; i++) {
         sum += arr[i];
     }
-    console.log(sum)
 
     if(sum > 0) {
         return 'The product is positive'
     }
 
-    if(sum < 0) {
-        return 'The product is negative'
-    }
-
-    return 'The product is 0';
-
+    sum < 0 ? return 'The product is negative' : return 'The product is 0';
 }
 
 console.log(productAdd(arr));
