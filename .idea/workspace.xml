@@ -63,6 +63,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="JavaScript" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -79,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673789314908</updated>
       <workItem from="1673789316893" duration="740000" />
-      <workItem from="1673940430742" duration="3634000" />
+      <workItem from="1673940430742" duration="11229000" />
     </task>
     <task id="LOCAL-00001" summary="first_homework">
       <created>1673789854721</created>
