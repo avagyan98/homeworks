@@ -55,6 +55,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KMfLHvz0d5AqsT45j5UGhnDEk5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -81,6 +82,7 @@
       <updated>1673789314908</updated>
       <workItem from="1673789316893" duration="740000" />
       <workItem from="1673940430742" duration="11229000" />
+      <workItem from="1674057023997" duration="210000" />
     </task>
     <task id="LOCAL-00001" summary="first_homework">
       <created>1673789854721</created>
@@ -103,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674026740194</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="logical_operators">
+      <created>1674057050984</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674057050984</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +132,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first_homework" />
     <MESSAGE value="fixed comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed comments" />
+    <MESSAGE value="logical_operators" />
+    <option name="LAST_COMMIT_MESSAGE" value="logical_operators" />
   </component>
 </project>
