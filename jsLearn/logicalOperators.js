@@ -7,8 +7,8 @@ let result = age >= 14 && age <= 90 ? true : false;
 // 2
 
 let age = prompt("write age", 20);
-let result = !(age >= 14 && age <= 90) ? true : false;
-let result1 = age < 14 && age >90 ? true : false;
+let result = !(age >= 14 && age <= 90);
+let result1 = age < 14 && age >90;
 
 
 // 3.
