@@ -2,7 +2,7 @@
 
 let name = prompt("What is the official name of JavaScript?", 'JS');
 
-if(name == "ECMAScript") {
+if(name === "ECMAScript") {
     alert("True");
 }else {
     alert("Do not know? ECMAScript!");
@@ -29,9 +29,9 @@ let resalt = (a + b < 4) ? "few" : "many";
 
 // 4.
 
-let massige = login == "Employee"
-    ? "Hey" : login == "Director"
-    ? "Hello" : login == ''
+let massige = login === "Employee"
+    ? "Hey" : login === "Director"
+    ? "Hello" : login === ''
     ? "No login" : "";
 
 

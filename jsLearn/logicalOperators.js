@@ -15,10 +15,10 @@ let result1 = age < 14 && age >90;
 
 let login = prompt("Who is this?", "name");
 
-if(login == "Admin"){
+if(login === "Admin"){
     let parol = prompt("Parol", "");
 
-    if(parol == "I'm in charge") {
+    if(parol === "I'm in charge") {
         alert("Hello");
     }else {
         alert("Wrong password");
