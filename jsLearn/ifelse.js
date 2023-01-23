@@ -1,6 +1,6 @@
 // 1.
 
-let name = prompt("What is the official name of JavaScript?", 'JS');
+const name = prompt("What is the official name of JavaScript?", 'JS');
 
 if(name === "ECMAScript") {
     alert("True");
@@ -11,7 +11,7 @@ if(name === "ECMAScript") {
 
 // 2.
 
-let number = prompt("write number", 100);
+const number = prompt("write number", 100);
 
 if(number > 0) {
     alert(1)
@@ -24,7 +24,7 @@ if(number > 0) {
 
 // 3.
 
-let resalt = (a + b < 4) ? "few" : "many";
+const result = (a + b < 4) ? "few" : "many";
 
 
 // 4.
