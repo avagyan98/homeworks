@@ -11,7 +11,7 @@ if(name === "ECMAScript") {
 
 // 2.
 
-const number = prompt("write number", 100);
+const number = Number(prompt("write number", 100));
 
 if(number > 0) {
     alert(1)
@@ -29,7 +29,7 @@ const result = (a + b < 4) ? "few" : "many";
 
 // 4.
 
-let massige = login === "Employee"
+const massige = login === "Employee"
     ? "Hey" : login === "Director"
     ? "Hello" : login === ''
     ? "No login" : "";

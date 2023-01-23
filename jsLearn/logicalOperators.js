@@ -1,19 +1,19 @@
 // 1.
 
-let age = prompt("write age", 20);
-let result = age >= 14 && age <= 90;
+const age = prompt("write age", 20);
+const result = age >= 14 && age <= 90;
 
 
 // 2
 
-let age = prompt("write age", 20);
-let result = !(age >= 14 && age <= 90);
-let result1 = age < 14 && age >90;
+const age = Number(prompt("write age", 20));
+const result = !(age >= 14 && age <= 90);
+const result1 = age < 14 && age >90;
 
 
 // 3.
 
-let login = prompt("Who is this?", "name");
+const login = prompt("Who is this?", "name");
 
 if(login === "Admin"){
     let parol = prompt("Parol", "");
