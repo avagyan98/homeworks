@@ -1,7 +1,7 @@
 // 1.
 
-const age = prompt("write age", 20);
-const result = age >= 14 && age <= 90;
+const yourAge = prompt("write age", 20);
+const result = yourAge >= 14 && yourAge <= 90;
 
 
 // 2
