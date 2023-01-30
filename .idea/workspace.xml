@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2e349e78-15f2-4e3b-8610-399ad5fb83f2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsLearn/logicalOperators.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsLearn/logicalOperators.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="first_homework" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,6 +36,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="loops" />
+                    <option name="lastUsedInstant" value="1674626389" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
                     <option name="lastUsedInstant" value="1674026773" />
@@ -67,7 +70,6 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="JavaScript" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -84,8 +86,8 @@
       <option name="presentableId" value="Default" />
       <updated>1673789314908</updated>
       <workItem from="1673789316893" duration="740000" />
-      <workItem from="1673940430742" duration="11229000" />
-      <workItem from="1674057023997" duration="210000" />
+      <workItem from="1673940430742" duration="3634000" />
+      <workItem from="1674625954414" duration="8678000" />
     </task>
     <task id="LOCAL-00001" summary="first_homework">
       <created>1673789854721</created>
@@ -108,49 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674026740194</updated>
     </task>
-    <task id="LOCAL-00004" summary="logical_operators">
-      <created>1674057050984</created>
+    <task id="LOCAL-00004" summary="loops and switch">
+      <created>1674935855795</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1674057050984</updated>
+      <updated>1674935855795</updated>
     </task>
-    <task id="LOCAL-00005" summary="fixed comments">
-      <created>1674125897268</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1674125897268</updated>
-    </task>
-    <task id="LOCAL-00006" summary="fixed comments">
-      <created>1674125922558</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1674125922558</updated>
-    </task>
-    <task id="LOCAL-00007" summary="fixed comments">
-      <created>1674399647089</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1674399647089</updated>
-    </task>
-    <task id="LOCAL-00008" summary="change let to const">
-      <created>1674488980909</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1674488980909</updated>
-    </task>
-    <task id="LOCAL-00009" summary="change let to const">
-      <created>1674489253592</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1674489253592</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,21 +136,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first_homework" />
-    <MESSAGE value="logical_operators" />
     <MESSAGE value="fixed comments" />
-    <MESSAGE value="change let to const" />
-    <option name="LAST_COMMIT_MESSAGE" value="change let to const" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/jsLearn/logicalOperators.js</url>
-          <line>10</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="loops and switch" />
+    <option name="LAST_COMMIT_MESSAGE" value="loops and switch" />
   </component>
 </project>
