@@ -19,10 +19,10 @@ console.log(minNumber(3, 4));
 
 
 function powNumber (x, n) {
+    let firstX = x;
+
     if(n === -1) return 1 / x;
     if(n < 0) {
-        let firstX = x;
-
         for(let i = 0; i < -(n + 1); i++) {
             x = firstX * x;
         }
@@ -32,8 +32,6 @@ function powNumber (x, n) {
 
     if(n === 0) return 1;
     if(n === 1) return x;
-
-    let firstX = x;
 
     for(let i = 0; i < n - 1; i++) {
         x = firstX * x;
