@@ -18,12 +18,8 @@ console.log(user);
 
 // 2. Check for emptiness
 
-function isEmpty (obj, key='key'){
-    console.log(key)
-    if(key in obj) {
-        return false
-    }
-    return true
+function isEmpty (obj){
+    return !Object.keys(obj)[0];
 }
 
 const object = {
