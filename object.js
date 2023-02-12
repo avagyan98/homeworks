@@ -19,7 +19,7 @@ console.log(user);
 // 2. Check for emptiness
 
 function isEmpty (obj){
-    return !Object.keys(obj)[0];
+    return !Object.keys(obj).length;
 }
 
 const object = {
