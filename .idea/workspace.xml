@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e349e78-15f2-4e3b-8610-399ad5fb83f2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object.js" beforeDir="false" afterPath="$PROJECT_DIR$/object.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="object" />
+                    <option name="lastUsedInstant" value="1675785303" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="functions" />
                     <option name="lastUsedInstant" value="1675005899" />
@@ -92,6 +97,8 @@
       <workItem from="1673789316893" duration="740000" />
       <workItem from="1673940430742" duration="3634000" />
       <workItem from="1674625954414" duration="8678000" />
+      <workItem from="1675762783344" duration="4507000" />
+      <workItem from="1675927465201" duration="3584000" />
     </task>
     <task id="LOCAL-00001" summary="first_homework">
       <created>1673789854721</created>
@@ -121,7 +128,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674935855795</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="object">
+      <created>1675785330530</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675785330530</updated>
+    </task>
+    <task id="LOCAL-00006" summary="object">
+      <created>1675929713595</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675929713595</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +163,8 @@
     <MESSAGE value="first_homework" />
     <MESSAGE value="change let to const" />
     <MESSAGE value="Merge branch 'master' of github.com:avagyan98/homeworks into functions&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of github.com:avagyan98/homeworks into functions&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="object" />
+    <option name="LAST_COMMIT_MESSAGE" value="object" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
