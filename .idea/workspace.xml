@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e349e78-15f2-4e3b-8610-399ad5fb83f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/this.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object.js" beforeDir="false" afterPath="$PROJECT_DIR$/object.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="this" />
+                    <option name="lastUsedInstant" value="1676837755" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="object" />
                     <option name="lastUsedInstant" value="1675785303" />
