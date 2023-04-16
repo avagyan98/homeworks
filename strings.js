@@ -10,9 +10,9 @@ console.log(ucFirst(text));
 // 2. Check for spam
 
 function checkSpam(str) {
-    const LowerCaseStr = str.toLowerCase();
+    const lowerCaseStr = str.toLowerCase();
 
-    return LowerCaseStr.includes('viagra') || LowerCaseStr.includes('XXX'.toLowerCase())
+    return lowerCaseStr.includes('viagra') || lowerCaseStr.includes('xxx')
 }
 
 console.log(checkSpam("asdsd sdf viAgra"));
