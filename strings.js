@@ -1,8 +1,7 @@
 // 1. Uppercase the first character
 
 function ucFirst(str) {
-    str = str[0].toUpperCase() + str.slice(1).toLowerCase();
-    return str
+    return str[0].toUpperCase() + str.slice(1).toLowerCase();
 }
 
 let text = 'teXt';
@@ -11,9 +10,9 @@ console.log(ucFirst(text));
 // 2. Check for spam
 
 function checkSpam(str) {
-    str = str.toLowerCase();
+    const LowerCaseStr = str.toLowerCase();
 
-    return str.includes('viagra'.toLowerCase()) || str.includes('XXX'.toLowerCase())
+    return LowerCaseStr.includes('viagra') || LowerCaseStr.includes('XXX'.toLowerCase())
 }
 
 console.log(checkSpam("asdsd sdf viAgra"));
@@ -35,3 +34,4 @@ function extractCurrencyValue(str) {
 const money = "$340"
 
 console.log(extractCurrencyValue(money))
+

@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e349e78-15f2-4e3b-8610-399ad5fb83f2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strings.js" beforeDir="false" afterPath="$PROJECT_DIR$/strings.js" afterDir="false" />
-    </list>
+    <list default="true" id="2e349e78-15f2-4e3b-8610-399ad5fb83f2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,6 +89,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -110,7 +108,9 @@
       <workItem from="1678547787180" duration="3142000" />
       <workItem from="1680874446868" duration="5594000" />
       <workItem from="1681223165506" duration="646000" />
-      <workItem from="1681306924832" duration="924000" />
+      <workItem from="1681306924832" duration="2585000" />
+      <workItem from="1681477180855" duration="917000" />
+      <workItem from="1681639793799" duration="651000" />
     </task>
     <task id="LOCAL-00001" summary="first_homework">
       <created>1673789854721</created>
@@ -161,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681048630081</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fixed comments">
+      <created>1681309163509</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681309163509</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +192,8 @@
     <MESSAGE value="object" />
     <MESSAGE value="object this" />
     <MESSAGE value="numbers_strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="numbers_strings" />
+    <MESSAGE value="fixed comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
