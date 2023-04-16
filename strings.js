@@ -32,6 +32,24 @@ function extractCurrencyValue(str) {
 }
 
 const money = "$340"
-
 console.log(extractCurrencyValue(money))
+
+
+let words = [];
+let wordStartIndex = 0;
+
+function getWords(str) {
+    for (let i = 0; i <= str.length; i++) {
+        if (str[i] === " " || i === str.length) {
+            let word = str.slice(wordStartIndex, i);
+            words.push(word);
+            wordStartIndex = i + 1;
+        }
+    }
+
+    return words
+}
+
+let str = "asd asdf asdfjnmk nkmljok lplkjo";
+console.log(getWords(str));
 
