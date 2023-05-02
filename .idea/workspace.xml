@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e349e78-15f2-4e3b-8610-399ad5fb83f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/jsLearn/arrayMetods.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsLearn/arrayMethods.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsLearn/arrayMethods.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +46,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="array_metods" />
-                    <option name="lastUsedInstant" value="1683021918" />
+                    <option name="branchName" value="array_methods" />
+                    <option name="lastUsedInstant" value="1683022005" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="numbers_strings" />
@@ -172,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681309163509</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="array_methods">
+      <created>1683021974551</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683021974551</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +204,8 @@
     <MESSAGE value="object this" />
     <MESSAGE value="numbers_strings" />
     <MESSAGE value="fixed comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed comments" />
+    <MESSAGE value="array_methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="array_methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

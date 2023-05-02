@@ -1,27 +1,17 @@
 // 1. Translate border-left-width to borderLeftWidth
 
 function camelize(str) {
-    const word = str.split('-').map((item, index) => index === 0 ? item : item[0].toUpperCase() + item.slice(1)).join('');
-
-    return word
+    return str.split('-').map((item, index) => index === 0 ? item : item[0].toUpperCase() + item.slice(1)).join('');
 }
 
-let string1 = 'abc-defgh-igklmn';
+const string1 = 'abc-defgh-igklmn';
 console.log(camelize(string1))
 
 
 // 2. Filter range
 
 function filterRange(arr, a, b) {
-    let array = [];
-
-    for(let i = 0; i < arr.length; i++){
-        if(arr[i] >= a && arr[i] <= b){
-            array.push(arr[i]);
-        }
-    }
-
-    return array
+    return arr.filter(num => num >= a && num <= b)
 }
 
 const numbers2 = [5, 3, 8, 1];
@@ -74,7 +64,7 @@ function Calculator() {
     // }
 }
 
-let calc = new Calculator;
+const calc = new Calculator;
 console.log(calc.calculate("1 - 2"))
 
 
@@ -98,7 +88,7 @@ let masha8 = { name: "Маша", surname: "Петрова", id: 3 };
 
 let users8 = [ vasya8, petya8, masha8 ];
 
-let usersMapped8 = users8.map(item =>({ fullName: item.name + " " + item.surname, id: item.id }));
+let usersMapped8 = users8.map(item =>({ fullName: `${item.name} ${item.surname}`, id: item.id }));
 console.log(usersMapped8)
 
 
@@ -120,7 +110,7 @@ console.log(sortByAge(arr9))
 // 10. Shuffle an array
 
 function shuffle(array) {
-    return array.sort(() => Math.random());
+    return array.sort(() => Math.random() - 0.5);
 }
 
 let arr10 = [1, 2, 3];
@@ -136,7 +126,7 @@ let masha11 = { name: "Маша", age: 29 };
 let arr11 = [ vasya11, petya11, masha11 ];
 
 function getAverageAge(array) {
-    return array.reduce((sumAge, item) => sumAge + item.age, 0)
+    return array.reduce((sumAge, item) => sumAge + item.age, 0) / array.length
 }
 console.log(getAverageAge(arr11))
 
