@@ -179,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683021974551</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fixed comments">
+      <created>1683054298574</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1683054298574</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,9 +210,9 @@
     <MESSAGE value="object" />
     <MESSAGE value="object this" />
     <MESSAGE value="numbers_strings" />
-    <MESSAGE value="fixed comments" />
     <MESSAGE value="array_methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="array_methods" />
+    <MESSAGE value="fixed comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

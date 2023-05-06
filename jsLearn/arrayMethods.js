@@ -51,21 +51,30 @@ console.log(copySorted(arr5), arr5)
 
 
 // 6. Create an extendable calculator
-        // xndri erkrord mas@ mnuma lucelu
 
 function Calculator() {
-
-    this.calculate = function(str) {
-        return eval(str)
+    this.operators = {
+        "+" : (a, b) => a + b,
+        "-" : (a, b) => a - b,
     }
 
-    // this.addMethod = function (name, func) {
-    //     return eval(`${a} ${name} ${b}`)
-    // }
+    this.calculate = function(str) {
+        let stringItems = str.split(" ")
+
+        return this.operators[stringItems[1]](+stringItems[0], +stringItems[2])
+    }
+
+    this.addMethod = function (name, func) {
+         this.operators[name] = func
+    }
 }
 
 const calc = new Calculator;
-console.log(calc.calculate("1 - 2"))
+console.log(calc.calculate("1 + 2"))
+const powerCalc = new Calculator;
+powerCalc.addMethod("**", (a, b) => a ** b);
+const result = powerCalc.calculate("2 ** 3");
+console.log(result)
 
 
 // 7. Map to names
