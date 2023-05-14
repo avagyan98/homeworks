@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e349e78-15f2-4e3b-8610-399ad5fb83f2" name="Changes" comment="" />
+    <list default="true" id="2e349e78-15f2-4e3b-8610-399ad5fb83f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/objectKeys.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +46,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="object_keys" />
+                    <option name="lastUsedInstant" value="1684076976" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="numbers_strings" />
                     <option name="lastUsedInstant" value="1681048601" />
                   </RecentBranch>
@@ -57,10 +64,6 @@
                   <RecentBranch>
                     <option name="branchName" value="object" />
                     <option name="lastUsedInstant" value="1675785303" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="functions" />
-                    <option name="lastUsedInstant" value="1675005899" />
                   </RecentBranch>
                 </list>
               </option>
@@ -203,6 +206,12 @@
           <url>file://$PROJECT_DIR$/jsLearn/logicalOperators.js</url>
           <line>10</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/objectKeys.js</url>
+          <line>10</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
