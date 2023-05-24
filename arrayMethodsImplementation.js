@@ -17,9 +17,7 @@ console.log(reduce(numbers1, (a, b) => a+b, 27));
 
 
 // 2. Array map method
-// this is no finished, I need add thisArg
 
-let aa = {ccc: [1,2,3,4]}
 const map = function (array, callback, thisArg) {
     let newArray = [];
 
@@ -36,14 +34,13 @@ console.log(map(numbers2,a => a + 5))
 
 
 // 3. Array filter method
-// this is no finished, I need add thisArg
 
-const filter = function (array, callback, thisArg) {
+const filter = function (array, callback) {
     let newArray = [];
 
     for (let i = 0; i < array.length; i++){
-        let a = callback(array[i], i, array)
-        if (a) newArray.push(array[i])
+        let checkElement = callback(array[i], i, array)
+        if (checkElement) newArray.push(array[i])
     }
 
     return newArray
@@ -73,4 +70,67 @@ const numbers4 = [1,2,3,4];
 console.log(concat(numbers4,['asd', 99]))
 
 
-// to be continued
+// 5. Array every method
+
+const every = function (array, callback) {
+    let result = true;
+
+    for (let i = 0; i < array.length; i++){
+        let checkElement = callback(array[i], i, array);
+        if(!checkElement) return false
+    }
+
+    return result
+}
+
+const numbers5 = [3,4];
+console.log(every(numbers5,a => a > 2))
+
+
+// 6. Array find method
+
+const find = function (array, callback) {
+
+  for(let i = 0; i < array.length; i++) {
+      let checkElement = callback(array[i], i, array);
+      if(checkElement) return array[i]
+  }
+
+  return undefined
+}
+
+const numbers6 = [1, 0, 3];
+console.log(find(numbers6,a => a > 2))
+
+
+// 7. Array findIndex method
+
+const findIndex = function (array, callback) {
+    let defaultResult = -1;
+
+    for (let i = 0; i < array.length; i++) {
+        let checkElement = callback(array[i], i, array);
+        if (checkElement) return i
+    }
+
+    return defaultResult
+}
+
+const numbers7 = [1, 0, 3];
+console.log(findIndex(numbers7,a => a > 2))
+
+
+// 8. Array some method
+
+const some = function (array, callback) {
+
+    for(let i = 0; i < array.length; i++) {
+        let checkElement = callback(array[i], i, array);
+        if (checkElement) return true
+    }
+
+    return false
+}
+
+const numbers8 = [1, 0, 1];
+console.log(some(numbers8,a => a > 2))
