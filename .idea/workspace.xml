@@ -120,6 +120,7 @@
       <workItem from="1681477180855" duration="917000" />
       <workItem from="1681639793799" duration="651000" />
       <workItem from="1681641728356" duration="2014000" />
+      <workItem from="1685387656845" duration="1669000" />
     </task>
     <task id="LOCAL-00001" summary="first_homework">
       <created>1673789854721</created>
@@ -177,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681309163509</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add any array methods">
+      <created>1684961310851</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684961310851</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +210,8 @@
     <MESSAGE value="object this" />
     <MESSAGE value="numbers_strings" />
     <MESSAGE value="fixed comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed comments" />
+    <MESSAGE value="add any array methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="add any array methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

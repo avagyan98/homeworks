@@ -134,3 +134,40 @@ const some = function (array, callback) {
 
 const numbers8 = [1, 0, 1];
 console.log(some(numbers8,a => a > 2))
+
+
+// 9. Array slice method
+
+const slice = function (array, start, end) {
+    const newArray = [];
+
+    if(end) {
+        for(let i = start; i < end; i++) {
+            newArray.push(array[i])
+        }
+    }else {
+        for(let i = start; i < array.length; i++) {
+            newArray.push(array[i])
+        }
+    }
+
+    return newArray
+}
+
+const numbers9 = [1,2,3,4];
+console.log(slice(numbers9,2))
+
+
+// 10. Array splice method , sharunakakan
+
+const splice = function (array, start, deleteCount, items) {
+
+    for(let i = start; i < start + deleteCount; i++){
+
+    }
+
+    return array
+}
+
+const numbers10 = [1,2,3,4];
+console.log(slice(numbers10,2))
