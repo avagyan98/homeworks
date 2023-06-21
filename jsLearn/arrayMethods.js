@@ -59,12 +59,9 @@ function Calculator() {
     }
 
     this.calculate = function(str) {
-        let stringItems = str.split(" ");
-        let elem1 = +stringItems[0];
-        let elem2 = +stringItems[2];
-        let operator = stringItems[1];
+        const [elem1, operator, elem2] = str.split(" ");
 
-        return this.operators[operator](elem1, elem2)
+        return this.operators[operator](+elem1, +elem2);
     }
 
     this.addMethod = function (name, func) {
