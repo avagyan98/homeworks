@@ -22,14 +22,15 @@ console.log(filterRange(numbers2, 1, 4));
 
 function filterRangeInPlace(arr, a, b) {
     for(let i = 0; i < arr.length; i++){
-        if(arr[i] <= a || arr[i] >= b){
+        if(arr[i] < a || arr[i] > b){
             arr.splice(i, 1);
+            i--;
         }
     }
 }
 
 const numbers3 = [5, 3, 8, 1];
-filterRangeInPlace(numbers3, 1, 4);
+filterRangeInPlace(numbers3, 1, 8);
 console.log(numbers3)
 
 
